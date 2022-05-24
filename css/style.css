@@ -1,0 +1,521 @@
+﻿@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HongHaHep_B';
+    src: url('../fonts/UVNHongHaHep_B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HongHaHep_R';
+    src: url('../fonts/UVNHongHaHep_R.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'HongHaHep_R';
+    font-size: 14px;
+}
+ol,ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/*----------------------------header top*/
+.header-top{
+    background: #eeeeee;
+    padding: 5px 0;
+}
+.hotline span{
+    font-family: 'OpenSans-Light';
+    font-size:13px;
+}
+.hotline span i{
+    display: inline-block;
+    padding: 6px;
+    background: #f96a6e;
+    color:#fff;
+    border-radius: 5px;
+}
+.menufast{
+    list-style: none;
+    float: right;
+}
+.menufast li{
+    display: inline-block;
+}
+.menufast li a{
+    color: #000;
+    display: block;
+    padding: 5px 10px;
+    border-left: 1px solid #a49898;
+}
+.menufast li a:hover{
+    text-decoration: underline;
+}
+/*header-midd*/
+.header-midd{
+    padding: 15px 0;
+}
+.logo a{
+    margin-top: 15px;
+    display: block;
+}
+.formsearch .input-group{
+    margin-top: 20px;
+}
+.formsearch .input-group input{
+    border-color: #f96a6e;
+    border-radius: unset;
+    height: 40px;
+}
+.formsearch .input-group button{
+    background: #f96a6e;
+    color: #fff;
+    height: 40px;
+}
+.shoppingcart{
+    margin-top: 15px;
+    background: url('../images/shopingcart.jpg') no-repeat left center;
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+
+/*-------------------header-bottom*/
+.header-bottom{
+    background: #f96a6e;
+}
+.header-bottom .title_dm{
+    background: #f85256;
+    height: 45px;   
+    font-size: 20px;
+    font-family: 'HongHaHep_B';
+    line-height: 45px;
+    margin: 0;
+    padding: 0 15px;
+}
+.header-bottom .title_dm a{
+    color: #fff;
+    text-transform: uppercase;  
+}
+.menu-top ul li{
+    display: inline-block;
+}
+.menu-top ul li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'HongHaHep_R';
+    line-height: 45px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    height: 45px;
+}
+.menu-top ul li:hover a{
+    background: #fff;
+    color: #f85256;
+}
+.box_qc{
+    padding: 15px 0 0;
+}
+.quangcao_home{
+    margin-bottom: 20px;
+}
+/*---------------------------------------------------------------menu-left */
+.item_menu_left{
+    position: relative;
+}
+.menu-left{
+    position: absolute;
+    border: 1px solid #f1f1f1;
+    width: 100%;
+}
+.menu-left ul{
+    padding: 0;
+}
+.menu-left ul li{
+    display: block;
+}
+.menu-left ul li a{
+    color: #000;
+    display: block;
+    padding: 7px 20px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 14px;
+    font-family: 'HongHaHep_R';
+}
+.mennu_1 a{
+    border-left: 3px solid #ff9900
+}
+.mennu_2 a{
+    border-left: 3px solid #00cc99
+}
+.mennu_3 a{
+    border-left: 3px solid #ff0099
+}
+.menu-left ul li:hover a{
+    background: #f96a6e;
+    color: #fff;
+}
+.c15{
+    height: 15px;
+}
+.c20{
+    height: 20px;
+}
+.c30{
+    height: 30px;
+}
+.c40{
+    height: 40px;;
+}
+img{
+    max-width: 100%;
+}
+.title_pro{
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'HongHaHep_B';
+    margin: 0;
+}
+.title_pro span{
+    color: #e69594;
+}
+/*----------------*/
+.product-item{
+    
+}
+.product-item a.img_pro{
+    display: block;
+    height: 290px;
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(232,227,232,1);
+-moz-box-shadow: 0px 0px 5px 4px rgba(232,227,232,1);
+box-shadow: 0px 0px 5px 4px rgba(232,227,232,1);
+overflow: hidden;
+}   
+.product-item a.img_pro img{
+    height: 100%;
+    width: 100%;
+    transition: all .3s;
+    transform: scale(1);
+}
+.product-item a.img_pro:hover img{
+    transform: scale(1.1);
+}
+.product-item h3{
+    font-family: 'HongHaHep_R';
+    font-size: 14px;
+}
+.product-item h3 a{
+    color: #a49898;
+}
+.product-item h3 a:hover{
+    color: #ff9900;
+}
+.star{
+    color: #fbab15;
+}
+.btn-group a{
+    display: inline-block;
+    padding: 10px 12px;
+    border: 1px solid #f1f1f1;
+    color: #999999;
+    transition: all .3s;
+}
+.btn-group a:hover{
+    background: #999999;
+    color: #fff;
+}
+.btn-group .btnshopping{
+    background: #999999;
+    color: #fff;
+}
+.btn-group .btnshopping:hover{
+    background: #fff;
+    color: #999;
+}
+
+
+.product_left{
+    border-top: 1px solid #f1f1f1;
+    padding: 10px 0;
+}
+.product_left .item_product_ul{}
+.product_left .item_product_ul li{}
+.product_left .item_product_ul li a.img_left_pro{
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+    border: 1px solid #f1f1f1;
+    position: relative;
+}
+a.img_left_pro img{
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.product_left .item_product_ul li h3{
+    font-size:14px;
+    margin: 0;
+    margin-bottom: 7px;
+}
+.product_left .item_product_ul li h3 a{
+    color: #000;
+    line-height: 1.4;
+}
+.product_left .item_product_ul li h3 a:hover{
+    color: red;
+}
+.price{
+    margin-bottom: 7px;
+}
+.price .price-new{
+    font-size: 18px;
+    font-family: 'HongHaHep_B';
+    color: red;
+}
+.registry_left{
+    border-top: 1px solid #f1f1f1;
+}
+.registry_left button{
+    background: #f96a6e;
+    color: #fff;
+}
+
+.item_news_ul{
+    padding: 0;
+    margin: 0;
+}
+.item_news_ul li{
+    display: block;
+    margin-bottom: 15px;
+}
+.item_news_ul li .img_left_news{
+    display: block;
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+}
+.item_news_ul li h3{
+    font-size: 14px;  
+    font-weight: bold;  
+}
+.item_news_ul li h3 a{
+    color: #000;
+}
+.date{
+    display: inline-block;
+    width: 28px;
+    background: #f96a6e;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding:0px 3px;
+}
+.date span{
+    display: block;
+    color: #FFF;
+    text-align: center;    
+}
+.date span:first-child{
+    border-bottom: 1px solid #fff;    
+}
+.item_news_ul li .description_news{
+    font-size: 14px;
+}
+.title_news{
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.customer_title{
+    position: relative;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: 'HongHaHep_B';
+    text-transform: uppercase;
+    text-align: center;
+}
+.customer_title::before{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    left: 0;
+    top: 18px;
+}
+.customer_title span{
+    display: inline-block;
+    padding:0 15px;
+    background: #fff;
+    position: relative;
+    z-index: 9;
+}
+
+.brand{
+    padding: 0 30px 30px;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+.brand .item{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.brand .item a{
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    line-height: 80px;
+}
+.brand .item img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*-------------------------------------------- footer*/
+footer{
+    background: #444444;
+}
+.footer_top{
+    background: #eeeeee;
+    padding: 15px 0;
+}
+
+.phone_ft{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'HongHaHep_B';
+    font-size: 16px;
+}
+.phone_ft i{
+    width: 34px;
+    height: 34px;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 50%;
+}
+
+.register_ft > span{
+    width: 130px;
+    display: inline-block;
+    font-family: 'HongHaHep_B';
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.register_ft .form_regis{
+    width:calc(100% - 130px);
+    float: right;
+}
+
+.register_ft .input-group button{
+   background: #f96a6e;
+   color: #fff;
+   font-family: 'HongHaHep_B';
+   font-size: 16px;
+   text-transform: uppercase;
+}
+.footer_midd{
+    padding-top: 30px;
+}
+.list_item_ft{
+    clear: both;
+}
+
+.list_item_ft li{
+    width: 19%;
+    float: left;
+    border-right: 1px solid #666666;
+    padding-left: 15px;
+}
+.list_item_ft li:last-child{
+    border-right: 0;
+    width: 24%;
+}
+.list_item_ft li:first-child{
+    padding-left: 0;
+}
+
+.title_ft{
+    color: #fff;font-size: 15px;
+    font-family: 'HongHaHep_B';
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.title_ft::before{
+    content: '';
+    width: 10%;
+    height: 2px;
+    background: #f96a6e;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.list_item_ft li .link a,
+.list_item_ft li .link p{
+    display: block;
+    color: #b4b4b4;
+}
+.list_item_ft li .link p i,.note_ft{
+    color: #fff;
+}
+
+.social a{
+    display: inline-block;
+    margin-right: 7px;
+    color: #fff;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.footer_bottom{
+    background: #2d2d2d;
+    padding: 5px 0;
+    color: #fff;
+}
+.footer_bottom p{
+    margin-bottom: 0;
+}
+
+.box_mobile{
+    background: red;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.box_mobile a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+}
+.box_mobile a:hover{
+    background: #000;
+}
